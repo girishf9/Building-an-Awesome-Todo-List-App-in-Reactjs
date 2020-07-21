@@ -1,0 +1,151 @@
+.list{
+    color: rgb(191, 57, 57);
+    width: 35%;
+    margin-left: 30%;
+    height:40px;
+    background-color: rgb(14, 15, 15);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.list p{
+    padding: 9px;
+    position: relative;
+    transition: ease-in-out;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: rgb(240, 232, 232);
+    font-size: 18px;
+    padding: 0px;
+}
+.list p input:focus{
+    outline: none;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+}
+.faicons{
+    margin-left: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.itemsAnim-enter{
+    opacity: 0.01;
+}
+.itemsAnim-enter .itemsAnim-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+.itemsAnim-leave{
+    opacity: 1;
+}
+.itemsAnim-leave .itemsAnim-leave-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(203, 189, 189);
+    }
+    .list{
+        color: rgb(191, 57, 57);
+        width: 65%;
+        margin-left: 10%;
+        height:40px;
+        background-color: rgb(14, 15, 15);
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .app{
+        margin-top: 4rem;
+        margin-left:1px;
+          border-radius: 1.3rem;
+          width: 100%;
+          border: 1px solid rgb(18, 19, 22);
+          background: linear-gradient(#e66465, #9198e5);
+          border-radius: 20px;
+      }
+      
+      #to-do-form input{
+        background-color: rgb(18, 18, 27);
+        border: 0; 
+        color: #fff;
+        width: 65%;
+        height: 40px;
+        padding: 0 30px;
+        font-size: 18px;
+        border-radius: 20px;
+        margin-left: 10%;
+      
+      }
+      .list p span{
+        position: absolute;
+        right: 10px;
+    }
+    .faicons{
+        margin: 0 auto;
+        font-size: 20px;
+        cursor: pointer;
+    } 
+    .list p{
+        padding: 10px;
+        position: absolute;
+        transition: ease-in-out;
+    }   
+  }
+  @media only screen and (max-width: 400px) {
+    body {
+        background-color: rgb(203, 189, 189);
+    }
+    .list{
+        color: rgb(191, 57, 57);
+        width: 65%;
+        margin-left: 10%;
+        height:40px;
+        background-color: rgb(14, 15, 15);
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .app{
+        margin-top: 4rem;
+        margin-left:1px;
+          border-radius: 1.3rem;
+          width: 100%;
+          border: 1px solid rgb(18, 19, 22);
+          background: linear-gradient(#e66465, #9198e5);
+          border-radius: 20px;
+      }
+      
+      #to-do-form input{
+        background-color: rgb(18, 18, 27);
+        border: 0; 
+        color: #fff;
+        width: 65%;
+        height: 40px;
+        padding: 0 30px;
+        font-size: 18px;
+        border-radius: 20px;
+        margin-left: 10%;
+      
+      }
+      .list p span{
+        position: absolute;
+        right: 10px;
+    }
+    .faicons{
+        margin: 0 auto;
+        font-size: 15px;
+        cursor: pointer;
+    }   
+    .list p{
+        padding: 10px;
+        position: relative;
+        transition: ease-in-out;
+    } 
+  }
